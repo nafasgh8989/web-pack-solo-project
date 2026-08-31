@@ -94,7 +94,7 @@ li:hover{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    gap: 120px;
+    gap: 30px;
     justify-content: center;
     padding: 30px;
 }
@@ -115,10 +115,11 @@ li:hover{
     box-shadow: var(--accent) 0 0 5px;
 }
 .img-cards{
-    width:100%;
-    height:100px ;
+    width:200px;
+    height:60px;
     flex: 100%;
     border-radius: 5px;
+    object-fit: cover;
 }
 .font-size{
     font-size: 17px;
@@ -126,32 +127,4 @@ li:hover{
 .spaese{
     margin: 30px 0 0 30px;
     color: var(--text-secondary);
-}
-/* responsiv */
-@media screen and (max-width:1000px) {
-    .cards{
-        gap: 20px;
-    }
-}
-@media screen and (max-width:360px) {
-    .nav-menu{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    }
-}
-@media screen and (max-width:550px) {
-    .header-menu nav li {
-        margin: 0 15px;
-    }
-}
-@media screen and (max-width:420px) {
-    .header-menu nav li {
-        margin: 0 10px;
-    }
-}
-@media screen and (max-width:360px) {
-    .header-menu nav li {
-        margin: 0 3px;
-    }
 }

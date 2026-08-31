@@ -13,29 +13,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="src/output.css" >
   </head>
 
   <body class="bg-[var(--background-color)] dark:bg-[#0f0f10]">
     <!-- Main Container -->
     <div class="container-web">
       <!-- Header -->
-      <header>
+      <header class="p-3 flex justify-between">
         <!-- Navigation Menu -->
         <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
-          <nav class="dark:text-[#f5e9da]">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </nav>
+          <nav class="dark:text-[#f5e9da] flex list-none justify-around rounded-md max-sm:p-1">
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="index.html">Home</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="menu.html">Menu</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="about.html">About</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="contact.html">Contact</a></li>
+          </nav> 
         </div>
         <!-- Theme Toggle Icon -->
         <div class="header-icon">
           <button
             id="themeToggle"
             type="button"
-            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[var(--secondary)] p-2 transition-all duration-500 hover:bg-white"
+            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[var(--secondary)] p-2 transition-all duration-500 hover:bg-white "
           >
             <i
               id="themeIcon"
@@ -45,51 +45,52 @@
         </div>
       </header>
       <!-- Hero Section -->
-      <section class="main">
+      <section class="main flex justify-between p-4 mt-5 mb-3 max-sm:flex">
         <!-- Hero Content -->
-        <div class="main-content">
-          <h1 class="dark:text-[var(--sur-face)]">
+        <div class="main-content flex flex-col justify-center items-center max-sm:flex text-center">
+          <h1 class="dark:text-[var(--sur-face)] text-5xl max-sm:text-2xl">
             <span class="dark:text-[var(--pri-mary)]">Good coffee,</span><br />different
             mood.
           </h1>
-          <p class="dark:text-[#f5e9da]">
+          <p class="dark:text-[#f5e9da] text-3xl max-sm:text-sm ">
             Discover carefully crafted coffees from around the world.
           </p>
           <!-- Call To Action Button -->
-          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)]">
-            <a href="menu.html">Explore Menu &rarr;</a>
+          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)] p-2 rounded-xl border-none transition-(.8s) 
+          transition-transform">
+            <a href="menu.html" class="text-[var(--sur-face)] text-(10px)">Explore Menu &rarr;</a>
           </button>
         </div>
         <!-- Hero Image -->
-        <div class="main-image">
-          <img src="img/1786207511719.png" alt="" class="img" />
+        <div class="main-image flex justify-center items-center">
+          <img src="img/1786207511719.png" alt="" class="img">
         </div>
       </section>
       <!-- Features Section -->
       <section
-        class="cards bg-[#efcea939] dark:bg-[#1a1a1d] dark:text-[#d4a373]"
+        class="cards bg-[#efcea939] dark:bg-[#1a1a1d] dark:text-[#d4a373] flex justify-around items-center text-center flex-wrap p-3 m-3 rounded-2xl"
       >
         <!-- Feature Card 1 -->
         <div class="card card1">
-          <img src="icon/coffee-beans.svg" alt="" class="icon" />
+          <img src="icon/coffee-beans.svg" alt="" class="icon ">
           <h3>Premium Beans</h3>
           <p>Sourced from the best regions.</p>
         </div>
         <!-- Feature Card 2 -->
         <div class="card card2">
-          <img src="icon/mug.svg" alt="mug" class="icon" />
+          <img src="icon/mug.svg" alt="mug" class="icon">
           <h3>Unique Flavors</h3>
           <p>Explore unique and rich tastes.</p>
         </div>
         <!-- Feature Card 3 -->
         <div class="card card3">
-          <img src="icon/nature-ecology-leaf.svg" alt="leaf-oak" class="icon" />
+          <img src="icon/nature-ecology-leaf.svg" alt="leaf-oak" class="icon">
           <h3>Expertly Brewed</h3>
           <p>Made with passion and precision.</p>
         </div>
         <!-- Feature Card 4 -->
         <div class="card card4">
-          <img src="icon/heart.svg" alt="heart" class="icon" />
+          <img src="icon/heart.svg" alt="heart" class="icon">
           <h3>Made for You</h3>
           <p>Perfect coffee for every mood.</p>
         </div>
