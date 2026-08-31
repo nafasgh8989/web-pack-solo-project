@@ -1,0 +1,195 @@
+/* add the color   */
+:root {
+    --background-color: #faf7f2;
+    --sur-face: #fff;
+    --pri-mary: #8b5e3c;
+    --secondary: #c89f7a;
+    --accent: #d6b38a;
+    --text: #2d2a26;
+    --text-secondary: #6b6b6b;
+    --border: #e8e3dc;
+    --hover: #6f472c;
+    --black: #000;
+}
+/* bgc  */
+body {
+    animation: pageload 1s ease forwards;
+}
+/* animation  */
+@keyframes pageload {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* ===========================
+   Header
+=========================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* ===========================
+   Header Navigation
+=========================== */
+.header-menu nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 var(--secondary);
+}
+/* Navigation Items */
+.header-menu nav li {
+    padding: 8px;
+    margin: 0 25px;
+    position: relative;
+}
+/* Navigation Underline Effect */
+nav li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--pri-mary);
+    transition: all .3s ease-in-out;
+}
+nav li:hover::after {
+    width: 100%;
+}
+/* ===========================
+   Main Section
+=========================== */
+section.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 30px 0 50px 0;
+}
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Main Heading */
+.main-content h1 {
+    font-size: 40px;
+}
+/* Main Description */
+.main-content p {
+    margin: 3% 0 6% 0;
+    width: 35%;
+    font-size: 20px;
+}
+/* Call To Action Button */
+.main-content button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: .8s;
+}
+/* Button Link */
+.main-content button a {
+    color: var(--sur-face);
+}
+/* Button Hover Effect */
+.main-content button:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transform: scale(1.08);
+}
+/* ===========================
+   Main Image
+=========================== */
+.main-image {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Main Image Style */
+.main-image img {
+    width: 80%;
+}
+
+/* ===========================
+   Feature Cards Section
+=========================== */
+section.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+/* Single Card */
+.cards .card {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Card Icon */
+.cards .card img {
+    width: 64px;
+    height: 64px;
+}
+/* responsive  */
+@media screen and (max-width:1000px) {
+    .main-content h1 {
+        font-size: 28px;
+    }
+    .main-content p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:750px) {
+    .cards .card h3 {
+        font-size: 15px;
+    }
+    .cards .card p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:550px) {
+    .header-menu nav li {
+        margin: 0 15px;
+    }
+}
+@media screen and (max-width:420px) {
+    .header-menu nav li {
+        margin: 0 10px;
+    }
+    .main-content h1 {
+        font-size: 20px;
+    }
+    .main-content p {
+        font-size: 12px;
+        width: 50%;
+    }
+}
+@media screen and (max-width:360px) {
+    .header-menu nav li {
+        margin: 0 3px;
+    }
+    .main-content h1 {
+        font-size: 17px;
+    }
+    .main-content p {
+        font-size: 10px;
+        width: 70%;
+    }
+}

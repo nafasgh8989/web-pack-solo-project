@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewed.</title>
+    <link rel="stylesheet" href="about.css" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-[var(--background-color)] dark:bg-[#0f0f10]">
+    <!-- Main Container -->
+    <div class="container-web">
+      <!-- Header -->
+      <header>
+        <!-- Navigation Menu -->
+        <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
+          <nav class="dark:text-[#f5e9da]">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </nav>
+        </div>
+        <!-- Theme Toggle Icon -->
+        <div class="header-icon">
+          <button
+            id="themeToggle"
+            type="button"
+            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[#c89f7a] p-2 transition-all duration-500 hover:bg-white"
+          >
+            <i
+              id="themeIcon"
+              class="fa-solid fa-moon text-[#faf7f2] group-hover:text-[#c89f7a]"
+            ></i>
+          </button>
+        </div>
+      </header>
+      <!-- Hero Section -->
+      <section class="main">
+        <!-- Hero Content -->
+        <div class="main-content">
+          <h1 class="dark:text-[#f5e9da]">About<br> <span class="dark:text-[#8b5e34]">Brewed.</span></h1>
+          <p class="size dark:text-[#f5e9da] ">
+            We travel the world to bring you exceptional coffee beans and unique
+            flavors.
+          </p>
+          <p class="size dark:text-[#f5e9da]">Evry cup is brewed with care, passion and love.</p>
+          <!-- Call To Action Button -->
+          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)]">
+            <a href="menu.html">Explore Menu &rarr;</a>
+          </button>
+        </div>
+        <!-- Hero Image -->
+        <div class="main-image">
+          <img src="img/InShot_20260806_205034359.png" alt="" class="img" />
+        </div>
+      </section>
+      <!-- Features Section -->
+      <section class="cards cards bg-[#efcea939] dark:bg-[#1a1a1d] dark:text-[#d4a373]">
+        <!-- Feature Card 1 -->
+        <div class="card card1">
+          <h3>100%</h3>
+          <p>Quality Cmmitment</p>
+        </div>
+        <!-- Feature Card 2 -->
+        <div class="card card2">
+          <h3>10K+</h3>
+          <p>Happy Customers</p>
+        </div>
+        <!-- Feature Card 3 -->
+        <div class="card card3">
+          <h3>50+</h3>
+          <p>Unique Blends</p>
+        </div>
+        <!-- Feature Card 4 -->
+        <div class="card card4">
+          <h3>20+</h3>
+          <p>Coffee Origins</p>
+        </div>
+      </section>
+    </div>
+    <!--  JAVASCRIPT  -->
+    <script src="index.js"></script>
+  </body>
+</html>

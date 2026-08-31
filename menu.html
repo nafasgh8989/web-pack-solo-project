@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewed.</title>
+    <link rel="stylesheet" href="menu.css" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+
+  <body class="bg-[var(--background-color)] dark:bg-[#0f0f10]">
+    <!-- Main Container -->
+    <div class="container-web">
+      <!-- Header -->
+      <header>
+        <!-- Navigation Menu -->
+        <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
+          <nav class="dark:text-[#f5e9da]">
+            <li class=""><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </nav>
+        </div>
+        <!-- Theme Toggle Icon -->
+        <div class="header-icon">
+          <button
+            id="themeToggle"
+            type="button"
+            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[var(--secondary)] p-2 transition-all duration-500 hover:bg-white"
+          >
+            <i
+              id="themeIcon"
+              class="fa-solid fa-moon text-[var(--background-color)] group-hover:text-[var(--secondary)]"
+            ></i>
+          </button>
+        </div>
+      </header>
+      <!-- menu  -->
+      <div class="menu">
+        <nav class="nav-menu dark:text-[#f5e9da]">
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#all">ALL</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#hot">HOT</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#cold">COLD</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#special">SPECIAL</a></li>
+        </nav>
+      </div>
+      <!-- drink kards -->
+      <h1 id="all" class="spaese">ALL</h1>
+      <section class="cards dark:text-[var(--accent)]">
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/es.png" alt="" class="img-cards" />
+          <h2 class="font-size">Espresso</h2>
+          <p>
+            strong and blod. <br />
+            pure coffee shot.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/capo.png" alt="" class="img-cards" />
+          <h2 class="font-size">Cappuccino</h2>
+          <p>
+            balanced espresso <br />
+            with steamed milk.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/latte.png" alt="" class="img-cards" />
+          <h2 class="font-size">Latte</h2>
+          <p>
+            smooth and creamy <br />
+            with a light taste.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/macha.png" alt="" class="img-cards" />
+          <h2 class="font-size">Mocha</h2>
+          <p>
+            chocolate meets <br />
+            righ espresso.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/flat.png" alt="" class="img-cards" />
+          <h2 class="font-size">Flat white</h2>
+          <p>
+            velvety and smooth <br />
+            with strong flavor.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/cold.png" alt="" class="img-cards" />
+          <h2 class="font-size">Cold Brew</h2>
+          <p>
+            slow brewd smooth <br />
+            and refreshing.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/maciato.png" alt="" class="img-cards" />
+          <h2 class="font-size">Caramel Macchiato</h2>
+          <p>
+            milk, vanilla and <br />
+            caramel goodness.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/ofogoto.png" alt="" class="img-cards" />
+          <h2 class="font-size">Affogato</h2>
+          <p>
+            espresso poured <br />
+            over ice cream.
+          </p>
+        </div>
+      </section>
+      <!-- hot drink  -->
+      <h1 id="hot" class="spaese">HOT</h1>
+      <section class="cards dark:text-[var(--accent)]">
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/es.png" alt="" class="img-cards" />
+          <h2 class="font-size">Espresso</h2>
+          <p>
+            strong and blod. <br />
+            pure coffee shot.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/capo.png" alt="" class="img-cards" />
+          <h2 class="font-size">Cappuccino</h2>
+          <p>
+            balanced espresso <br />
+            with steamed milk.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/latte.png" alt="" class="img-cards" />
+          <h2 class="font-size">Latte</h2>
+          <p>
+            smooth and creamy <br />
+            with a light taste.
+          </p>
+        </div>
+      </section>
+      <!-- cold drink  -->
+      <h1 id="cold" class="spaese">COLD</h1>
+      <section class="cards dark:text-[var(--accent)]">
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/macha.png" alt="" class="img-cards" />
+          <h2 class="font-size">Mocha</h2>
+          <p>
+            chocolate meets <br />
+            righ espresso.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/cold.png" alt="" class="img-cards" />
+          <h2 class="font-size">Cold Brew</h2>
+          <p>
+            slow brewd smooth <br />
+            and refreshing.
+          </p>
+        </div>
+      </section>
+      <!-- special drink  -->
+      <h1 id="special" class="spaese">SPECIAL</h1>
+      <section class="cards dark:text-[var(--accent)]">
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/flat.png" alt="" class="img-cards" />
+          <h2 class="font-size">Flat white</h2>
+          <p>
+            velvety and smooth <br />
+            with strong flavor.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/maciato.png" alt="" class="img-cards" />
+          <h2 class="font-size">Caramel Macchiato</h2>
+          <p>
+            milk, vanilla and <br />
+            caramel goodness.
+          </p>
+        </div>
+        <div class="card dark:bg-[#1a1a1d]">
+          <img src="img/ofogoto.png" alt="" class="img-cards" />
+          <h2 class="font-size">Affogato</h2>
+          <p>
+            espresso poured <br />
+            over ice cream.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--  JAVASCRIPT  -->
+    <script src="index.js"></script>
+  </body>
+</html>

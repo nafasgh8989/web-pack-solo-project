@@ -1,0 +1,30 @@
+{
+  "name": "web-pack-solo-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafasgh8989/web-pack-solo-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nafasgh8989/web-pack-solo-project/issues"
+  },
+  "homepage": "https://github.com/nafasgh8989/web-pack-solo-project#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6",
+    "prettier-plugin-tailwindcss": "^0.8.1"
+  }
+}

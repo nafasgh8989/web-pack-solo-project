@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brewed.</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+
+  <body class="bg-[var(--background-color)] dark:bg-[#0f0f10]">
+    <!-- Main Container -->
+    <div class="container-web">
+      <!-- Header -->
+      <header>
+        <!-- Navigation Menu -->
+        <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
+          <nav class="dark:text-[#f5e9da]">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </nav>
+        </div>
+        <!-- Theme Toggle Icon -->
+        <div class="header-icon">
+          <button
+            id="themeToggle"
+            type="button"
+            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[var(--secondary)] p-2 transition-all duration-500 hover:bg-white"
+          >
+            <i
+              id="themeIcon"
+              class="fa-solid fa-moon text-[var(--background-color)] group-hover:text-[var(--secondary)]"
+            ></i>
+          </button>
+        </div>
+      </header>
+      <!-- Hero Section -->
+      <section class="main">
+        <!-- Hero Content -->
+        <div class="main-content">
+          <h1 class="dark:text-[var(--sur-face)]">
+            <span class="dark:text-[var(--pri-mary)]">Good coffee,</span><br />different
+            mood.
+          </h1>
+          <p class="dark:text-[#f5e9da]">
+            Discover carefully crafted coffees from around the world.
+          </p>
+          <!-- Call To Action Button -->
+          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)]">
+            <a href="menu.html">Explore Menu &rarr;</a>
+          </button>
+        </div>
+        <!-- Hero Image -->
+        <div class="main-image">
+          <img src="img/1786207511719.png" alt="" class="img" />
+        </div>
+      </section>
+      <!-- Features Section -->
+      <section
+        class="cards bg-[#efcea939] dark:bg-[#1a1a1d] dark:text-[#d4a373]"
+      >
+        <!-- Feature Card 1 -->
+        <div class="card card1">
+          <img src="icon/coffee-beans.svg" alt="" class="icon" />
+          <h3>Premium Beans</h3>
+          <p>Sourced from the best regions.</p>
+        </div>
+        <!-- Feature Card 2 -->
+        <div class="card card2">
+          <img src="icon/mug.svg" alt="mug" class="icon" />
+          <h3>Unique Flavors</h3>
+          <p>Explore unique and rich tastes.</p>
+        </div>
+        <!-- Feature Card 3 -->
+        <div class="card card3">
+          <img src="icon/nature-ecology-leaf.svg" alt="leaf-oak" class="icon" />
+          <h3>Expertly Brewed</h3>
+          <p>Made with passion and precision.</p>
+        </div>
+        <!-- Feature Card 4 -->
+        <div class="card card4">
+          <img src="icon/heart.svg" alt="heart" class="icon" />
+          <h3>Made for You</h3>
+          <p>Perfect coffee for every mood.</p>
+        </div>
+      </section>
+      <!-- JAVASCRIPT  -->
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>

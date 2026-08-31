@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brewed.</title>
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-[var(--background-color)] dark:bg-[#0f0f10]">
+    <!-- Main Container -->
+    <div class="container-web">
+      <!-- Header -->
+      <header>
+        <!-- Navigation Menu -->
+        <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
+          <nav class="dark:text-[#f5e9da]">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </nav>
+        </div>
+        <!-- Theme Toggle Icon -->
+        <div class="header-icon">
+          <button
+            id="themeToggle"
+            type="button"
+            class="group flex aspect-square cursor-pointer items-center justify-center rounded-full bg-[var(--secondary)] p-2 transition-all duration-500 hover:bg-white"
+          >
+            <i
+              id="themeIcon"
+              class="fa-solid fa-moon text-[var(--background-color)] group-hover:text-[var(--secondary)]"
+            ></i>
+          </button>
+        </div>
+      </header>
+      <!-- Hero Section -->
+      <section class="main">
+        <!-- Hero Content -->
+        <div class="main-content">
+          <h1 class="dark:text-[var(--pri-mary)]">Contact Us.</h1>
+          <p class="size dark:text-[#f5e9da]">We'd love to hear from you.</p>
+          <!-- Call To Action Button -->
+          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)] dark:text-[#fff] text-[#f5e9da]">
+            <a href="menu.html">Explore Menu &rarr;</a>
+          </button>
+          <button class="bg-[var(--pri-mary)] dark:bg-[var(--accent)] dark:text-[#fff] text-[#f5e9da]">
+            <a href="index.html">Back to HOME &rarr;</a>
+          </button>
+        </div>
+        <!-- Hero Image -->
+        <div class="main-image">
+          <img
+            src="img/file_000000008224820a84633c5ef14833f1.png"
+            alt=""
+            class="img"
+          />
+        </div>
+      </section>
+      <!-- Features Section -->
+      <section class="cards dark:text-[#8b5e34]">
+        <!-- Feature Card 1 -->
+        <div class="card card1">
+          <img src="icon/send-envelope.svg" alt="" class="icon" />
+          <p>hello@brewed.com</p>
+        </div>
+        <!-- Feature Card 2 -->
+        <div class="card card2">
+          <img src="icon/telephone-phone.svg" alt="mug" class="icon" />
+          <p>+98 09123456789</p>
+        </div>
+        <!-- Feature Card 3 -->
+        <div class="card card3">
+          <img
+            src="icon/travel-map-location-pin.svg"
+            alt="leaf-oak"
+            class="icon"
+          />
+          <p>123 coffee street, brew city, BC 12345</p>
+        </div>
+        <!-- Feature Card 4 -->
+        <div class="card card4">
+          <img src="icon/instagram.svg" alt="heart" class="icon" />
+          <p>@00_brewed_00</p>
+        </div>
+        <!-- Feature Card 5 -->
+        <div class="card card5">
+          <img src="icon/x.svg" alt="heart" class="icon" />
+          <p>https://x.com/brewed</p>
+        </div>
+        <!-- Feature Card 6 -->
+        <div class="card card6">
+          <img
+            src="icon/travel-map-navigation-arrow.svg"
+            alt="heart"
+            class="icon"
+          />
+          <p>https://t.me/brewed</p>
+        </div>
+      </section>
+    </div>
+    <!--  JAVASCRIPT  -->
+    <script src="index.js"></script>
+  </body>
+</html>
