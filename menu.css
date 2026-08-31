@@ -29,27 +29,13 @@ body {
     }
 }
 /* ===========================
-   Header
-=========================== */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-/* ===========================
    Header Navigation
 =========================== */
 .header-menu nav {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    border-radius: 10px;
     box-shadow: 0 0 5px 0 var(--secondary);
 }
 /* Navigation Items */
 .header-menu nav li {
-    padding: 8px;
-    margin: 0 25px;
     position: relative;
 }
 /* Navigation Underline Effect */
@@ -70,17 +56,8 @@ nav li:hover::after {
 /* ========================== 
          navbar 
  ========================== */
-.nav-menu{
-    display: flex;
-    list-style: none;
-    margin-top: 20px;
-    gap: 25px;
-    padding: 50px;
-}
 .nav-menu li{
-    padding: 5px;
     box-shadow: 0 0 5px 0 var(--secondary);
-    border-radius: 5px;
 }
 li{
     transition: all .8s;
@@ -91,23 +68,11 @@ li:hover{
 /*===========================
            Drink kards
 ===========================*/
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    padding: 30px;
-}
 .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 200px;
     height: 200px;
     border: var(--border) solid 1px;
     box-shadow: 0 0 5px 0 var(--secondary);
-    border-radius: 5px;
     transition: all 1s;
 }
 .card:hover{
@@ -121,10 +86,4 @@ li:hover{
     border-radius: 5px;
     object-fit: cover;
 }
-.font-size{
-    font-size: 17px;
-}
-.spaese{
-    margin: 30px 0 0 30px;
-    color: var(--text-secondary);
-}
+

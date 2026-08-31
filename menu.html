@@ -20,14 +20,14 @@
     <!-- Main Container -->
     <div class="container-web">
       <!-- Header -->
-      <header>
+      <header class="flex justify-between p-3">
         <!-- Navigation Menu -->
         <div class="header-menu bg-[var(--sur-face)] dark:bg-[#1a1a1d]">
-          <nav class="dark:text-[#f5e9da]">
-            <li class=""><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <nav class="dark:text-[#f5e9da] flex list-none justify-around rounded-md max-sm:p-1">
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="index.html">Home</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="menu.html">Menu</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="about.html">About</a></li>
+            <li class="p-2 mr-5 ml-5 max-sm:m-0"><a href="contact.html">Contact</a></li>
           </nav>
         </div>
         <!-- Theme Toggle Icon -->
@@ -46,75 +46,75 @@
       </header>
       <!-- menu  -->
       <div class="menu">
-        <nav class="nav-menu dark:text-[#f5e9da]">
-          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#all">ALL</a></li>
-          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#hot">HOT</a></li>
-          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#cold">COLD</a></li>
-          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)]"><a href="#special">SPECIAL</a></li>
+        <nav class="nav-menu dark:text-[#f5e9da] flex list-none mt-(20px) gap-8 p-7 max-sm:gap-2">
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)] p-2 rounded-md"><a href="#all">ALL</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)] p-2 rounded-md"><a href="#hot">HOT</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)] p-2 rounded-md"><a href="#cold">COLD</a></li>
+          <li class="dark:bg-[#1a1a1d] bg-[var(--pri-mary)] text-[var(--secondary)] p-2 rounded-md"><a href="#special">SPECIAL</a></li>
         </nav>
       </div>
       <!-- drink kards -->
-      <h1 id="all" class="spaese">ALL</h1>
-      <section class="cards dark:text-[var(--accent)]">
-        <div class="card dark:bg-[#1a1a1d]">
+      <h1 id="all" class="spaese text-[var(--text-secondary)] text-center text-3xl">ALL</h1>
+      <section class="cards dark:text-[var(--accent)] flex flex-wrap gap-8 justify-center p-5">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/es.png" alt="" class="img-cards" />
-          <h2 class="font-size">Espresso</h2>
+          <h2 class="font-size text-2xl">Espresso</h2>
           <p>
             strong and blod. <br />
             pure coffee shot.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/capo.png" alt="" class="img-cards" >
-          <h2 class="font-size">Cappuccino</h2>
+          <h2 class="font-size text-2xl">Cappuccino</h2>
           <p>
             balanced espresso <br />
             with steamed milk.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/latte.png" alt="" class="img-cards" >
-          <h2 class="font-size">Latte</h2>
+          <h2 class="font-size text-2xl">Latte</h2>
           <p>
             smooth and creamy <br />
             with a light taste.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/macha.png" alt="" class="img-cards" >
-          <h2 class="font-size">Mocha</h2>
+          <h2 class="font-size text-2xl">Mocha</h2>
           <p>
             chocolate meets <br />
             righ espresso.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/flat.png" alt="" class="img-cards" >
-          <h2 class="font-size">Flat white</h2>
+          <h2 class="font-size text-2xl">Flat white</h2>
           <p>
             velvety and smooth <br />
             with strong flavor.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/cold.png" alt="" class="img-cards" >
-          <h2 class="font-size">Cold Brew</h2>
+          <h2 class="font-size text-2xl">Cold Brew</h2>
           <p>
             slow brewd smooth <br />
             and refreshing.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl text-center">
           <img src="img/maciato.png" alt="" class="img-cards" >
-          <h2 class="font-size">Caramel Macchiato</h2>
+          <h2 class="font-size text-2xl">Caramel Macchiato</h2>
           <p>
             milk, vanilla and <br />
             caramel goodness.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl  ">
           <img src="img/ofogoto.png" alt="" class="img-cards" >
-          <h2 class="font-size">Affogato</h2>
+          <h2 class="font-size text-2xl">Affogato</h2>
           <p>
             espresso poured <br />
             over ice cream.
@@ -122,27 +122,27 @@
         </div>
       </section>
       <!-- hot drink  -->
-      <h1 id="hot" class="spaese">HOT</h1>
-      <section class="cards dark:text-[var(--accent)]">
-        <div class="card dark:bg-[#1a1a1d]">
+      <h1 id="hot" class="spaese text-[var(--text-secondary)] text-center text-3xl">HOT</h1>
+      <section class="cards dark:text-[var(--accent)] flex flex-wrap gap-8 justify-center p-5">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/es.png" alt="" class="img-cards" >
-          <h2 class="font-size">Espresso</h2>
+          <h2 class="font-size text-2xl">Espresso</h2>
           <p>
             strong and blod. <br />
             pure coffee shot.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/capo.png" alt="" class="img-cards" >
-          <h2 class="font-size">Cappuccino</h2>
+          <h2 class="font-size text-2xl">Cappuccino</h2>
           <p>
             balanced espresso <br />
             with steamed milk.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
           <img src="img/latte.png" alt="" class="img-cards" >
-          <h2 class="font-size">Latte</h2>
+          <h2 class="font-size text-2xl">Latte</h2>
           <p>
             smooth and creamy <br />
             with a light taste.
@@ -150,19 +150,19 @@
         </div>
       </section>
       <!-- cold drink  -->
-      <h1 id="cold" class="spaese">COLD</h1>
-      <section class="cards dark:text-[var(--accent)]">
-        <div class="card dark:bg-[#1a1a1d]">
-          <img src="img/macha.png" alt="" class="img-cards" />
-          <h2 class="font-size">Mocha</h2>
+      <h1 id="cold" class="spaese text-[var(--text-secondary)] text-center text-3xl">COLD</h1>
+      <section class="cards dark:text-[var(--accent)] flex flex-wrap gap-8 justify-center p-5">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
+          <img src="img/macha.png" alt="" class="img-cards" >
+          <h2 class="font-size text-2xl">Mocha</h2>
           <p>
             chocolate meets <br />
             righ espresso.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
-          <img src="img/cold.png" alt="" class="img-cards" />
-          <h2 class="font-size">Cold Brew</h2>
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
+          <img src="img/cold.png" alt="" class="img-cards" >
+          <h2 class="font-size text-2xl">Cold Brew</h2>
           <p>
             slow brewd smooth <br />
             and refreshing.
@@ -170,27 +170,27 @@
         </div>
       </section>
       <!-- special drink  -->
-      <h1 id="special" class="spaese">SPECIAL</h1>
-      <section class="cards dark:text-[var(--accent)]">
-        <div class="card dark:bg-[#1a1a1d]">
-          <img src="img/flat.png" alt="" class="img-cards" />
-          <h2 class="font-size">Flat white</h2>
+      <h1 id="special" class="spaese text-[var(--text-secondary)] text-center text-3xl">SPECIAL</h1>
+      <section class="cards dark:text-[var(--accent)] flex flex-wrap gap-8 justify-center p-5">
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
+          <img src="img/flat.png" alt="" class="img-cards" >
+          <h2 class="font-size text-2xl">Flat white</h2>
           <p>
             velvety and smooth <br />
             with strong flavor.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
-          <img src="img/maciato.png" alt="" class="img-cards" />
-          <h2 class="font-size">Caramel Macchiato</h2>
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl text-center">
+          <img src="img/maciato.png" alt="" class="img-cards" >
+          <h2 class="font-size text-2xl">Caramel Macchiato</h2>
           <p>
             milk, vanilla and <br />
             caramel goodness.
           </p>
         </div>
-        <div class="card dark:bg-[#1a1a1d]">
-          <img src="img/ofogoto.png" alt="" class="img-cards" />
-          <h2 class="font-size">Affogato</h2>
+        <div class="card dark:bg-[#1a1a1d] flex flex-col justify-center items-center rounded-xl">
+          <img src="img/ofogoto.png" alt="" class="img-cards" >
+          <h2 class="font-size text-2xl">Affogato</h2>
           <p>
             espresso poured <br />
             over ice cream.
